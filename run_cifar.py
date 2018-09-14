@@ -14,7 +14,7 @@ parser.add_argument('-s', '--sigmashape', default='share', type=str, help='the f
 parser.add_argument('-e','--epochs', default=50, type=int, metavar='N', help='number of total epochs to run')
 parser.add_argument('--start-epoch', default=0, type=int, metavar='N',  help='manual epoch number (useful on restarts)')
 parser.add_argument('--gpu', type=int, default=-1, metavar='N', help='the GPU number (default auto schedule)')
-parser.add_argument('--action', default='train-test', type=str, help='train or test')
+parser.add_argument('--action', default='train-test', type=str, help='train or test (default train-test)')
 
 args = parser.parse_args()
 
